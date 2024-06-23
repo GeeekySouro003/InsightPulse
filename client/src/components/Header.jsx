@@ -54,7 +54,7 @@ const Header = () => {
         <div className="flex items-center px-5 lg:px-7.5 xl:px-10 mx-lg:py-4">
           <Link to={"/"}>
             <a className="block w-[12rem] xl:mr-8">
-              <span className="text-lg w-[12rem] md:text-3xl">ReviewHub</span>
+              <span className="text-lg w-[12rem] md:text-3xl">InsightPulse</span>
             </a>
           </Link>
           <nav

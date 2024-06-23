@@ -11,16 +11,17 @@ const Features = () => {
 
   return (
     <>
-    <Section crosses id="features">
-        <div className="container px-5 mx-auto" >
-            <div className="flex flex-col w-full mb-12 items-center">
-                <h1 className="text-3xl font-bold font-grotesk title-font mb-4 text-text">
-                    Features
-                </h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Discover the powerful features that make our product stand out. 
-                From cutting-edge technology to user-friendly interfaces, we've got you covered.
-                </p>
+   <Section crosses id="features">
+  <div className="container px-5 mx-auto">
+    <div className="flex flex-col w-full mb-12 items-center">
+    <h1 className="text-3xl font-bold font-grotesk title-font mb-4 text-text border-b-4 ">
+        Features<span className="border-b-4 border-primary ml-2"> </span>
+      </h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-center">
+        Discover the unparalleled features that define our product.
+        <br />
+        From groundbreaking technology to seamlessly integrated user interfaces.
+      </p>
             </div>
 
             <div className="flex flex-wrap -m-4">

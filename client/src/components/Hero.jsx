@@ -3,6 +3,7 @@ import Section from "./Section";
 import Button from "./Button";
 import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
+import HButton from "./HButton";
 
 const Hero = () => {
   const { userInfo } = useSelector((state) => state.auth);
@@ -28,9 +29,9 @@ const Hero = () => {
           </p>
 
                 <Link to={userInfo?`/feedback-forms`:`/register`}>
-                    <Button white className="mt-6 hover:text-text">
+                    <HButton white className="mt-6 hover:text-text">
                         Submit Feedback
-                    </Button>
+                    </HButton>
                 </Link>
 
           <RetroGrid />
