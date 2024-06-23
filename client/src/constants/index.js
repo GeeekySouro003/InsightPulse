@@ -59,34 +59,29 @@ export const socials = [
 export const team = [
     {
         id: 1,
-        name: 'Siddhant Chalke',
+        name: 'Souradip Dasgupta',
         role: 'Developer',
         imgUrl: avatar,
     },
     {
         id: 2,
-        name: 'Omkar Potphode',
+        name: 'Shreya Gautam',
         role: 'Developer',
         imgUrl: avatar,
     },
     {
         id: 3,
-        name: 'Ritik Joshi',
+        name: 'Vivek Yadav',
         role: 'Developer',
         imgUrl: avatar,
     },
     {
         id: 4,
-        name: 'Sameer Ahamed S',
+        name: 'Lokesh Yadav',
         role: 'Developer',
         imgUrl: avatar,
     },
-    {
-        id: 5,
-        name: 'Sweeti',
-        role: 'Developer',
-        imgUrl: avatar,
-    },
+    
 ];
 
 export const features = [

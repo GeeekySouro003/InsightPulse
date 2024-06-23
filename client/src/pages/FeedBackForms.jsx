@@ -1,5 +1,5 @@
 import React from 'react'
-import { HoverEffect } from '../design/CardHoverEffect'
+import {HoverEffect} from '../design/CardHoverEffect'
 import { AddFeature, AppRatings, BugReport, CustomerPraise, CustomerSurvey, ProductReview } from '../assets';
 import BackButton from '../design/DrawOutlineButton';
 import { Link } from 'react-router-dom';

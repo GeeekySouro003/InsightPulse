@@ -17,6 +17,12 @@
   scroll-behavior: smooth
 }
 
+.custom-placeholder::placeholder {
+  background-color: white; /* Set the placeholder background color */
+  color: inherit; /* Keep the placeholder text color same as text color */
+}
+
+
 @layer base {
   body {
       @apply font-sans bg-background text-text text-base;

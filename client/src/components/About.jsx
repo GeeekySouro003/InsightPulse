@@ -15,12 +15,12 @@ const About = () => {
             <div className='flex flex-wrap -m-1'>
                 {team.map((item) => (
                     <div key={item.id} className='p-2 lg:w-1/3 md:w-1/2 w-full'>
-                        <div className='h-full flex items-center border-accent border p-4 rounded-lg'>
+                        <div className='h-full flex items-center border-accent border p-6 rounded-full px-5'>
                             <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={item.imgUrl}/>
 
                             <div className='flex-grow'>
                                 <div className='flex items-center'>
-                                    <h2 className='text-text title-font font-code font-medium'>
+                                    <h2 className='text-text title-font font-code font-bold text-xl'>
                                         {item.name}
                                     </h2>
 
