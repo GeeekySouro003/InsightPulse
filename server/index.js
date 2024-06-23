@@ -23,7 +23,7 @@ app.use(cors())
 app.use(express.json());
 
 // Define the port to listen on
-const port = process.env.PORT || 8001;
+const port = process.env.PORT || 80;
 
 // Mount user routes under /api/user path
 app.use("/api/user", userRoutes);
