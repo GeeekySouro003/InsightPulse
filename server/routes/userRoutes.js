@@ -1,6 +1,6 @@
 // Import required modules and controllers
 const express = require("express");
-const { registerUser, authUser, logoutUser ,getUserData} = require("../controllers/userControllers");
+const { registerUser, authUser, logoutUser ,getUserData} = require("../controller/userControllers");
 
 // Create a new router instance
 const router = express.Router();
