@@ -4,7 +4,7 @@ const connectDB = require("./config/db");
 const dotenv = require("dotenv");
 const cors = require('cors')
 const userRoutes = require("./routes/userRoutes");
-const feedbackRoutes = require("./routes/feeback");
+const feedbackRoutes = require("./routes/feedback");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 // Load environment variables from .env file
