@@ -10,7 +10,7 @@ const Profile = () => {
         <p>Username: {userInfo.name}</p>
         <p>Email: {userInfo.email}</p>
         <p>Type: {userInfo.isAdmin?'Admin':'User'}</p>
-        {/* <p>Total feedbacks: {user.totalFeedbacks}</p> */}
+         <p>Total feedbacks: {user.totalFeedbacks}</p>
     </div>
   )
 }

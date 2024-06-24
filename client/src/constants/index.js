@@ -1,4 +1,4 @@
-import { twitter, instagram, facebook, avatar } from "../assets"
+import { twitter, instagram, facebook, avatar} from "../assets"
 
 export const header = [
     {
@@ -88,17 +88,17 @@ export const features = [
     {
         id: 1,
         title: 'User-friendly interfaces',
-        description: 'Interfaces designed for ease of use, ensuring a smooth experience for users interacting with the system.',
+        description: "Intuitive interfaces that prioritize user experience, making it simple and efficient to provide feedback.",
     },
     {
         id: 2,
-        title: 'Real-time data submission',
-        description: 'Capability for users to submit feedback in real-time, allowing for prompt data collection and analysis.',
+        title: 'Customizable Feedback Forms',
+        description: 'Customizable feedback forms allow users to tailor questions and formats to suit specific needs, ensuring relevant and targeted feedback collection.',
     },
     {
         id: 3,
         title: 'Feedback tracking',
-        description: 'Ability to track individual feedback submissions, facilitating monitoring and analysis of feedback history.',
+        description: "Track individual feedback submissions to enable detailed monitoring,historical analysis.",
     },
 ];
 
